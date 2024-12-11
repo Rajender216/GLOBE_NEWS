@@ -387,3 +387,14 @@ input:checked + .slider:before {
 .slider.round:before {
   border-radius: 50%;
 }
+@media (max-width: 600px) {
+  #search-text {
+    display: none;
+  }
+  .channel-select {
+    display: none;
+  }
+  .card-container {
+    justify-content: center;
+  }
+}
